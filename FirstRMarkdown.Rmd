@@ -2,7 +2,9 @@
 title: "First R Markdown"
 author: "Lee-Anne Cecchini"
 date: "16 February 2017"
-output: github_document
+output: 
+  html_document:
+  keep_md: true
 ---
 
 ```{r setup, include=FALSE}
